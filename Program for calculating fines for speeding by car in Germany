@@ -1,6 +1,6 @@
 print("Fine system")
 
-car_speed = 0
+car_speed = int(input("Enter the speed of your car: "))
 is_town = True
 
 fine_for_1_to_20 = 20
