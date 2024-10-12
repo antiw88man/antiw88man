@@ -3,7 +3,7 @@ print("Fine system")
 car_speed = int(input("Enter the speed of your car: "))
 is_town = True
 
-fine_for_1_to_20 = "Get a fine: 20 euro"
+fine_for_1_to_20 = "Get a fine: 30 euro"
 fine_for_11_to_15 = "Get a fine: 40 euro"
 fine_for_16_to_20 = "Get a fine: 60 euro"
 fine_for_21_to_25 = "Get a fine: 100 euro"
