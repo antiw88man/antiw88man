@@ -1,6 +1,6 @@
 print("Fine system")
 
-car_speed = 50
+car_speed = 0
 is_town = True
 
 fine_for_1_to_20 = 20
