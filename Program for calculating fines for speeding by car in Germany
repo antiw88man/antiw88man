@@ -22,7 +22,7 @@ if is_town:
 else:
   over_speed = car_speed - country_speed
 
-if over_speed >= 0:
+if over_speed <= 0:
   print("The speed is not exceeded or slightly exceeded")
 elif over_speed >= 1 and over_speed <= 10:
     print("fine: " + str(fine_for_1_to_20))
