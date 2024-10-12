@@ -1,6 +1,6 @@
 print("Система расчета штрафов")
 
-car_speed = 0
+car_speed = int(input("Введите скорость вашего автомобиля: "))
 is_town = True
 
 fine_for_20_to_40 = 500
