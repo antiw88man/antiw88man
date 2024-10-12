@@ -3,10 +3,10 @@ print("Система расчета штрафов")
 car_speed = int(input("Введите скорость вашего автомобиля: "))
 is_town = True
 
-fine_for_20_to_40 = 500
-fine_for_40_to_60 = 1000
-fine_for_60_to_80 = 2000
-fine_for_80_and_more = 5000
+fine_for_20_to_40 = "Получите штраф: 500 рублей"
+fine_for_40_to_60 = "Получите штраф: 1000 рублей"
+fine_for_60_to_80 = "Получите штраф: 2000 рублей"
+fine_for_80_and_more = "Получите штраф: 5000 рублей"
 
 town_speed = 60
 country_speed = 90
@@ -19,10 +19,10 @@ else:
 if over_speed < 20:
   print("Скорость не превышена или превышена незначительно")
 elif over_speed >= 20 and over_speed < 40:
-  print("Штраф: " + str(fine_for_20_to_40))
+  print(str(fine_for_20_to_40))
 elif over_speed >= 40 and over_speed < 60:
-  print("Штраф: " + str(fine_for_40_to_60))
+  print(str(fine_for_40_to_60))
 elif over_speed >= 60 and over_speed < 80:
-  print("Штраф: " + str(fine_for_60_to_80))
+  print(str(fine_for_60_to_80))
 elif over_speed >= 80:
-  print("Штраф: " + str(fine_for_80_and_more))
+  print(str(fine_for_80_and_more))
