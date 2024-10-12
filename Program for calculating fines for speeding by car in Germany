@@ -4,15 +4,15 @@ car_speed = int(input("Enter the speed of your car: "))
 is_town = True
 
 fine_for_1_to_20 = "Get a fine: 30 euro"
-fine_for_11_to_15 = "Get a fine: 40 euro"
-fine_for_16_to_20 = "Get a fine: 60 euro"
-fine_for_21_to_25 = "Get a fine: 100 euro"
-fine_for_26_to_30 = "Get a fine: 150 euro"
-fine_for_31_to_40 = "Get a fine: 200 euro"
-fine_for_41_to_50 = "Get a fine: 320 euro"
-fine_for_51_to_60 = "Get a fine: 480 euro"
-fine_for_61_to_70 = "Get a fine: 600 euro"
-fine_for_71_and_more = "Get a fine: 700 euro"
+fine_for_11_to_15 = "Get a fine: 50 euro"
+fine_for_16_to_20 = "Get a fine: 70 euro"
+fine_for_21_to_25 = "Get a fine: 115 euro"
+fine_for_26_to_30 = "Get a fine: 180 euro"
+fine_for_31_to_40 = "Get a fine: 260 euro"
+fine_for_41_to_50 = "Get a fine: 400 euro"
+fine_for_51_to_60 = "Get a fine: 560 euro"
+fine_for_61_to_70 = "Get a fine: 700 euro"
+fine_for_71_and_more = "Get a fine: 800 euro"
 
 town_speed = 50
 country_speed = 70
